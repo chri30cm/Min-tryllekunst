@@ -1,0 +1,6 @@
+﻿Smartmenu
+Du kan vælge menupunkt ved at trykke tallene 1-4, hvis man helt vil forlade menuen skal man trykke 0.
+Gør dette;menu1
+Gør det der;menu2
+Gør noget;menu3
+Gør alt;menu4

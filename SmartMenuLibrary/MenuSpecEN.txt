@@ -1,0 +1,6 @@
+﻿Smartmenu
+You choose a menu point by pressing numbers 1-4 and you exit the menu by pressing 0.
+Do this;menu1
+Do that;menu2
+Do something;menu3
+Do everything;menu4
