@@ -22,7 +22,7 @@ namespace SmartMenuApp
             Console.WriteLine("For English: Press 2");
             string input = Console.ReadLine();
 
-            int.TryParse(input, out int r); // Tester om input fra brugeren er et tal
+            int.TryParse(input, out int r);
             if (r == 0)
             {
                 Console.WriteLine("Farvel");

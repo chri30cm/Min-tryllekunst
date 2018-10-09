@@ -11,7 +11,6 @@ namespace SmartMenuLibrary
     {
         public static void Callid(string menu_id)
         {
-            // Checker hvilken metoder der skal kaldes
             if (menu_id == "menu1")
             {
                 Console.WriteLine(Functions.DoThis());
