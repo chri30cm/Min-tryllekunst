@@ -19,8 +19,8 @@ namespace SmartMenuLibrary
             }
             else
             {
-                System.IO.StreamReader txtmenu = 
-                    new System.IO.StreamReader(@"C:\Users\Christian\source\repos\Projekt 1\SmartMenuApp.Code-master\SmartMenuLibrary\" + path);
+                System.IO.StreamReader txtmenu =
+                    new System.IO.StreamReader(@"\Users\Christian\source\repos\Projekt 1\Min tryllekunst\SmartMenuLibrary\" + path);
 
                 string line;
                 int i = 1;
@@ -44,7 +44,7 @@ namespace SmartMenuLibrary
         public void Activate()
         {
             Bindings binding = new Bindings();
-            
+
             bool usingMenu = true;
             while (usingMenu)
             {
@@ -90,7 +90,7 @@ namespace SmartMenuLibrary
                         break;
                 }
                 Console.ReadLine();
-               
+
             }
         }
 
