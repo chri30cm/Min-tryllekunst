@@ -20,7 +20,7 @@ namespace SmartMenuLibrary
             else
             {
                 System.IO.StreamReader txtmenu =
-                    new System.IO.StreamReader(@"\Users\Christian\source\repos\Projekt 1\Min tryllekunst\SmartMenuLibrary\" + path);
+                    new System.IO.StreamReader(@"\Users\Bruger\source\repos\Min-tryllekunst2\SmartMenuLibrary\" + path);
 
                 string line;
                 int i = 1;
