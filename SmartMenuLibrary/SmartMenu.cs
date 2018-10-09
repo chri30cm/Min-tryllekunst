@@ -43,7 +43,6 @@ namespace SmartMenuLibrary
 
         public void Activate()
         {
-            Bindings binding = new Bindings();
 
             bool usingMenu = true;
             while (usingMenu)
