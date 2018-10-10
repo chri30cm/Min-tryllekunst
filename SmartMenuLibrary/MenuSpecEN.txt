@@ -1,6 +1,11 @@
 ﻿Smartmenu
 You choose a menu point by pressing numbers 1-4 and you exit the menu by pressing 0.
-Do this;menu1
-Do that;menu2
-Do something;menu3
-Do everything;menu4
+Add;menu1
+Substract;menu2
+Multiply;menu3
+Divide;menu4
+Sum;menu5
+Minimum;menu6
+Maximum;menu7
+Average;menu8
+Extra;menu9

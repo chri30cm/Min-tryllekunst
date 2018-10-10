@@ -20,7 +20,7 @@ namespace SmartMenuLibrary
             else
             {
                 System.IO.StreamReader txtmenu =
-                    new System.IO.StreamReader(@"C:\Users\Bruger\source\repos\Min-tryllekunst2\SmartMenuLibrary\" + path);
+                    new System.IO.StreamReader(@"C:\Users\zek\source\repos\Tryllekunst\Min-tryllekunst\SmartMenuLibrary\" + path);
 
                 string line;
                 int i = 1;
@@ -82,11 +82,42 @@ namespace SmartMenuLibrary
                         Console.WriteLine("press enter to return");
                         break;
 
+                    case 5:
+                        Bindings.Callid(menuPoints[4]);
+                        Console.WriteLine();
+                        Console.WriteLine("press enter to return");
+                        break;
+
+                    case 6:
+                        Bindings.Callid(menuPoints[5]);
+                        Console.WriteLine();
+                        Console.WriteLine("press enter to return");
+                        break;
+
+                    case 7:
+                        Bindings.Callid(menuPoints[6]);
+                        Console.WriteLine();
+                        Console.WriteLine("press enter to return");
+                        break;
+
+                    case 8:
+                        Bindings.Callid(menuPoints[7]);
+                        Console.WriteLine();
+                        Console.WriteLine("press enter to return");
+                        break;
+
+                    /*case 9:
+                        Bindings.Callid(menuPoints[8]);
+                        Console.WriteLine();
+                        Console.WriteLine("press enter to return");
+                        break;*/
+
                     default:
                         Console.WriteLine("input var ikke et menu punkt");
                         Console.WriteLine();
                         Console.WriteLine("press enter to return");
                         break;
+
                 }
                 Console.ReadLine();
 
